@@ -84,7 +84,8 @@ The VM was configured with the required system resources and network adapter.
 A dedicated NAT Network was created in VirtualBox.
 
 **Configuration:**
-image
+imag
+<img width="701" height="550" alt="Screenshot_2026-09-10_23-32-02" src="https://github.com/user-attachments/assets/f2e0ecf4-9009-4544-a8e3-1f1c9cd0084a" />
 
 
 The NAT Network allows virtual machines connected to the same network to communicate with each other while providing external network connectivity through NAT.
@@ -101,7 +102,9 @@ image
 ### Step 5. Configure the Kali Linux Network
 The network configuration was checked and configured with a consistent IPv4 address.
 
-image
+![Uploading Screenshot_2026-09-10_23-35-38.png…]()
+<img width="701" height="550" alt="Screenshot_2026-09-10_23-32-02" src="https://github.com/user-attachments/assets/2003ba37-a7a0-4237-91ab-687cb06a759b" />
+
 
 ### Step 6. Create a VM Snapshot
 
