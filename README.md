@@ -46,6 +46,7 @@ It can be used for activities such as:
 
 
 
+<img width="1366" height="662" alt="Screenshot_2026-09-10_23-54-29" src="https://github.com/user-attachments/assets/4a1600e1-c5fd-470d-ad03-a46403b4b335" />
 
                 
 ## Lab Configuration
@@ -72,6 +73,7 @@ Tool: 7-Zip
 VirtualBox was installed and configured as the hypervisor for the cybersecurity laboratory.
 
 VirtualBox allows multiple operating systems to run as virtual machines on the host computer.
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/adcd5183-c9a2-4549-ae2d-06c7851e8394" />
 
 ### Step 2. Install Kali Linux
 
@@ -104,7 +106,7 @@ image
 ### Step 5. Configure the Kali Linux Network
 The network configuration was checked and configured with a consistent IPv4 address.
 
-![Uploading Screenshot_2026-09-10_23-35-38.png…]()
+
 <img width="701" height="550" alt="Screenshot_2026-09-10_23-32-02" src="https://github.com/user-attachments/assets/2003ba37-a7a0-4237-91ab-687cb06a759b" />
 
 
@@ -171,7 +173,7 @@ This helped determine whether the problem was related to the VM interface, routi
 
 ### 1. VirtualBox NAT Network
 
-**VirtualBox NAT Network** (`1-nat-network.png`)
+**VirtualBox NAT Network** 
 
 This screenshot shows the NAT Network configuration used for the cybersecurity laboratory.
 
