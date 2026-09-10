@@ -101,7 +101,8 @@ This makes it suitable for creating an isolated multi-machine cybersecurity labo
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
-<img width="1366" height="662" alt="Screenshot_2026-09-10_23-54-29" src="https://github.com/user-attachments/assets/4a1600e1-c5fd-470d-ad03-a46403b4b335" /
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/4eb48c10-172f-4672-856a-6a2afea15ffe" />
+
 
 ### Step 5. Configure the Kali Linux Network
 The network configuration was checked and configured with a consistent IPv4 address.
@@ -179,7 +180,6 @@ This screenshot shows the NAT Network configuration used for the cybersecurity l
 
 ![VirtualBox NAT Network](images/1-nat-network.png)
 
-
 ### 3. Kali Linux Network Configuration
 
 **Kali Network Configuration** 
@@ -193,8 +193,6 @@ This screenshot shows the network configuration of the Kali Linux virtual machin
 **Network Verification** 
 
 This screenshot shows the network verification commands and results.
-
-![Network Verification] 
 
 <img width="1366" height="627" alt="Screenshot_2026-09-11_00-04-16" src="https://github.com/user-attachments/assets/a9fe0362-0495-4a38-b125-519aa8f275d2" />
 
