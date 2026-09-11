@@ -174,15 +174,8 @@ Result: eth0 successfully connected to the VirtualBox NAT Network.
 ```
 ## Screenshots
 
-### 1. VirtualBox NAT Network
 
-**VirtualBox NAT Network** 
-
-This screenshot shows the NAT Network configuration used for the cybersecurity laboratory.
-
-![VirtualBox NAT Network](images/1-nat-network.png)
-
-### 2. Kali Linux Network Configuration
+### 1. Kali Linux Network Configuration
 
 **Kali Network Configuration** 
 
@@ -190,7 +183,7 @@ This screenshot shows the network configuration of the Kali Linux virtual machin
 
 <img width="1366" height="662" alt="Screenshot_2026-09-10_23_31_22" src="https://github.com/user-attachments/assets/e0a27de8-94d4-4b09-a692-e30f645cf599" />
 
-### 3. Network Verification
+### 2. Network Verification
 
 **Network Verification** 
 
