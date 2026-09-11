@@ -97,6 +97,8 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 
 <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/4eb48c10-172f-4672-856a-6a2afea15ffe" />
 
+<img width="1366" height="662" alt="Screenshot_2026-09-10_23-54-29" src="https://github.com/user-attachments/assets/4a1600e1-c5fd-470d-ad03-a46403b4b335" />
+
 
 ### Step 5. Configure the Kali Linux Network
 The network configuration was checked and configured with a consistent IPv4 address.
