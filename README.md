@@ -42,12 +42,6 @@ It can be used for activities such as:
 
 > **Important:** All security testing should only be performed against systems that you own or have explicit authorization to test.
 
-## Lab Architecture
-
-
-
-<img width="1366" height="662" alt="Screenshot_2026-09-10_23-54-29" src="https://github.com/user-attachments/assets/4a1600e1-c5fd-470d-ad03-a46403b4b335" />
-
                 
 ## Lab Configuration
 
