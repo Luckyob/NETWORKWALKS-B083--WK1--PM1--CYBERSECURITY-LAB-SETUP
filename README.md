@@ -151,26 +151,26 @@ The VirtualBox adapter configuration and Kali network connection were then revie
 This demonstrated the importance of checking both the virtual network configuration and the operating system network configuration when troubleshooting connectivity.
 ```
 
-
 The output showed that `eth0` was disconnected, while the `lo` (loopback) interface was connected.
 
 I restarted the NetworkManager service to refresh the network configuration:
 
-```bash
 sudo systemctl restart NetworkManager
 ```
-
 I then checked the IPv4 configuration of `eth0`:
 
 ```bash
 ip -4 addr show eth0
-
+```
 After restarting NetworkManager, I rechecked the network interface status:
+``` bash
 nmcli device status
+```
 This time, eth0 showed as connected, confirming that the network interface had successfully established a connection.
-Resolution
+### Resolution
 The issue was resolved by restarting NetworkManager, which allowed eth0 to reconnect and obtain its network configuration from the VirtualBox NAT Network.
-Commands Used
+###  Commands Used
+```bash
 nmcli device status
 sudo systemctl restart NetworkManager
 ip -4 addr show eth0
