@@ -180,15 +180,15 @@ This screenshot shows the NAT Network configuration used for the cybersecurity l
 
 ![VirtualBox NAT Network](images/1-nat-network.png)
 
-### 3. Kali Linux Network Configuration
+### 2. Kali Linux Network Configuration
 
 **Kali Network Configuration** 
 
 This screenshot shows the network configuration of the Kali Linux virtual machine.
 
-![Kali Network Configuration](images/3-kali-network.png)
+<img width="1366" height="662" alt="Screenshot_2026-09-10_23_31_22" src="https://github.com/user-attachments/assets/e0a27de8-94d4-4b09-a692-e30f645cf599" />
 
-### 4. Network Verification
+### 3. Network Verification
 
 **Network Verification** 
 
@@ -198,13 +198,6 @@ This screenshot shows the network verification commands and results.
 
 <img width="1366" height="627" alt="Screenshot_2026-09-10_23-35-38" src="https://github.com/user-attachments/assets/be605ce0-bc1d-4994-9710-859564426bb5" />
 
-### 5. Virtual Machine Snapshot
-
-**VirtualBox Snapshot** (`5-vm-snapshot.png`)
-
-This screenshot shows the clean snapshot created after completing the initial laboratory setup.
-
-![VirtualBox Snapshot](images/5-vm-snapshot.png)
 
 ## What I Learned
 
