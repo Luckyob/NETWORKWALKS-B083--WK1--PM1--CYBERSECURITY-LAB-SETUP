@@ -242,8 +242,6 @@ The virtual cybersecurity laboratory was successfully configured using VirtualBo
 
 The environment provides a controlled platform for practicing cybersecurity concepts, testing security tools, and performing authorized penetration testing exercises.
 
-The laboratory can be expanded in the future by adding additional virtual machines, vulnerable applications, and intentionally vulnerable target systems.
-
 ## 🔗 Tools & Resources
 
 - **7-Zip:** https://7-zip.org/download.html
