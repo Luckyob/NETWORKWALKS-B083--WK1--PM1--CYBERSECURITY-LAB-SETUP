@@ -135,41 +135,49 @@ The snapshot provides a known-good recovery point before performing future cyber
 | Nmap | `nmap --version` | Nmap version displayed |
 | Snapshot | Restore snapshot | Baseline restored |
 
-## Problems Encountered and Solutions
+## Problem Encountered: eth0 Network Interface Disconnected
 
-### Problem 1. Kali Network Interface Not Showing the Expected IP
+During the lab setup, the `eth0` network interface was not connecting to the VirtualBox NAT Network.
 
-During the network configuration process, the Kali VM did not initially display the expected IPv4 address on the `eth0` interface.
+### Troubleshooting
 
-The network configuration was checked using:
+I first checked the status of the network interfaces using:
 
 ```bash
-ip a
+nmcli device status
 ```
-
 The VirtualBox adapter configuration and Kali network connection were then reviewed to identify the cause.
 
 This demonstrated the importance of checking both the virtual network configuration and the operating system network configuration when troubleshooting connectivity.
-
-### Problem 2. Hotspot Connectivity
-
-The Kali VM was also tested using the host computer's Internet connection through a mobile hotspot.
-
-When connectivity did not work as expected, the network adapter, IP configuration, and routing information were checked using:
-
-```bash
-ip a
-ip route
 ```
 
-Connectivity was then tested using:
+
+The output showed that `eth0` was disconnected, while the `lo` (loopback) interface was connected.
+
+I restarted the NetworkManager service to refresh the network configuration:
 
 ```bash
-ping 8.8.8.8
+sudo systemctl restart NetworkManager
 ```
 
-This helped determine whether the problem was related to the VM interface, routing, DNS, or the VirtualBox network configuration.
+I then checked the IPv4 configuration of `eth0`:
 
+```bash
+ip -4 addr show eth0
+
+After restarting NetworkManager, I rechecked the network interface status:
+nmcli device status
+This time, eth0 showed as connected, confirming that the network interface had successfully established a connection.
+Resolution
+The issue was resolved by restarting NetworkManager, which allowed eth0 to reconnect and obtain its network configuration from the VirtualBox NAT Network.
+Commands Used
+nmcli device status
+sudo systemctl restart NetworkManager
+ip -4 addr show eth0
+nmcli device status
+Result: eth0 successfully connected to the VirtualBox NAT Network.
+
+```
 ## Screenshots
 
 ### 1. VirtualBox NAT Network
